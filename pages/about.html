@@ -74,22 +74,20 @@
 </footer>
 
 <script type="text/javascript">
-(function(d, t) {
-    var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-    v.onload = function() {
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
         window.voiceflow.chat.load({
-            verify: { projectID: '69077c8c2c2c409d8b3aa75d' },
-            url: 'https://general-runtime.voiceflow.com',
-            versionID: 'production',
-            voice: {
-                url: "https://runtime-api.voiceflow.com"
-            }
+          verify: { projectID: '69171a36b18715325997499d' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
         });
-    }
-    v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; 
-    v.type = "text/javascript"; 
-    s.parentNode.insertBefore(v, s);
-})(document, 'script');
+      }
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
 </script>
 
 </body>
